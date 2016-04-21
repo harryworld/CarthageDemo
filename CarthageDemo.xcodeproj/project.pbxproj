@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D11159451CC921C800C68122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159441CC921C800C68122 /* AppDelegate.swift */; };
+		D11159471CC921C800C68122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159461CC921C800C68122 /* ViewController.swift */; };
+		D11159491CC921C800C68122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11159481CC921C800C68122 /* Assets.xcassets */; };
+		D111594C1CC921C800C68122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D111594A1CC921C800C68122 /* Main.storyboard */; };
+		D11159571CC921C800C68122 /* CarthageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159561CC921C800C68122 /* CarthageDemoTests.swift */; };
+		D11159621CC921C800C68122 /* CarthageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159611CC921C800C68122 /* CarthageDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D11159531CC921C800C68122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11159391CC921C800C68122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11159401CC921C800C68122;
+			remoteInfo = CarthageDemo;
+		};
+		D111595E1CC921C800C68122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11159391CC921C800C68122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11159401CC921C800C68122;
+			remoteInfo = CarthageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D11159411CC921C800C68122 /* CarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11159441CC921C800C68122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D11159461CC921C800C68122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D11159481CC921C800C68122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D111594B1CC921C800C68122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D111594D1CC921C800C68122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11159521CC921C800C68122 /* CarthageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11159561CC921C800C68122 /* CarthageDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoTests.swift; sourceTree = "<group>"; };
+		D11159581CC921C800C68122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D111595D1CC921C800C68122 /* CarthageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11159611CC921C800C68122 /* CarthageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoUITests.swift; sourceTree = "<group>"; };
+		D11159631CC921C800C68122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D111593E1CC921C800C68122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D111594F1CC921C800C68122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D111595A1CC921C800C68122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D11159381CC921C700C68122 = {
+			isa = PBXGroup;
+			children = (
+				D11159431CC921C800C68122 /* CarthageDemo */,
+				D11159551CC921C800C68122 /* CarthageDemoTests */,
+				D11159601CC921C800C68122 /* CarthageDemoUITests */,
+				D11159421CC921C800C68122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D11159421CC921C800C68122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D11159411CC921C800C68122 /* CarthageDemo.app */,
+				D11159521CC921C800C68122 /* CarthageDemoTests.xctest */,
+				D111595D1CC921C800C68122 /* CarthageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D11159431CC921C800C68122 /* CarthageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D11159441CC921C800C68122 /* AppDelegate.swift */,
+				D11159461CC921C800C68122 /* ViewController.swift */,
+				D11159481CC921C800C68122 /* Assets.xcassets */,
+				D111594A1CC921C800C68122 /* Main.storyboard */,
+				D111594D1CC921C800C68122 /* Info.plist */,
+			);
+			path = CarthageDemo;
+			sourceTree = "<group>";
+		};
+		D11159551CC921C800C68122 /* CarthageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D11159561CC921C800C68122 /* CarthageDemoTests.swift */,
+				D11159581CC921C800C68122 /* Info.plist */,
+			);
+			path = CarthageDemoTests;
+			sourceTree = "<group>";
+		};
+		D11159601CC921C800C68122 /* CarthageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D11159611CC921C800C68122 /* CarthageDemoUITests.swift */,
+				D11159631CC921C800C68122 /* Info.plist */,
+			);
+			path = CarthageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D11159401CC921C800C68122 /* CarthageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11159661CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemo" */;
+			buildPhases = (
+				D111593D1CC921C800C68122 /* Sources */,
+				D111593E1CC921C800C68122 /* Frameworks */,
+				D111593F1CC921C800C68122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageDemo;
+			productName = CarthageDemo;
+			productReference = D11159411CC921C800C68122 /* CarthageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D11159511CC921C800C68122 /* CarthageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11159691CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemoTests" */;
+			buildPhases = (
+				D111594E1CC921C800C68122 /* Sources */,
+				D111594F1CC921C800C68122 /* Frameworks */,
+				D11159501CC921C800C68122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D11159541CC921C800C68122 /* PBXTargetDependency */,
+			);
+			name = CarthageDemoTests;
+			productName = CarthageDemoTests;
+			productReference = D11159521CC921C800C68122 /* CarthageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D111595C1CC921C800C68122 /* CarthageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D111596C1CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemoUITests" */;
+			buildPhases = (
+				D11159591CC921C800C68122 /* Sources */,
+				D111595A1CC921C800C68122 /* Frameworks */,
+				D111595B1CC921C800C68122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D111595F1CC921C800C68122 /* PBXTargetDependency */,
+			);
+			name = CarthageDemoUITests;
+			productName = CarthageDemoUITests;
+			productReference = D111595D1CC921C800C68122 /* CarthageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D11159391CC921C800C68122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "STAY REAL LIMITED";
+				TargetAttributes = {
+					D11159401CC921C800C68122 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D11159511CC921C800C68122 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D11159401CC921C800C68122;
+					};
+					D111595C1CC921C800C68122 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D11159401CC921C800C68122;
+					};
+				};
+			};
+			buildConfigurationList = D111593C1CC921C800C68122 /* Build configuration list for PBXProject "CarthageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D11159381CC921C700C68122;
+			productRefGroup = D11159421CC921C800C68122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11159401CC921C800C68122 /* CarthageDemo */,
+				D11159511CC921C800C68122 /* CarthageDemoTests */,
+				D111595C1CC921C800C68122 /* CarthageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D111593F1CC921C800C68122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11159491CC921C800C68122 /* Assets.xcassets in Resources */,
+				D111594C1CC921C800C68122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11159501CC921C800C68122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D111595B1CC921C800C68122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D111593D1CC921C800C68122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11159471CC921C800C68122 /* ViewController.swift in Sources */,
+				D11159451CC921C800C68122 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D111594E1CC921C800C68122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11159571CC921C800C68122 /* CarthageDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11159591CC921C800C68122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11159621CC921C800C68122 /* CarthageDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D11159541CC921C800C68122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11159401CC921C800C68122 /* CarthageDemo */;
+			targetProxy = D11159531CC921C800C68122 /* PBXContainerItemProxy */;
+		};
+		D111595F1CC921C800C68122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11159401CC921C800C68122 /* CarthageDemo */;
+			targetProxy = D111595E1CC921C800C68122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D111594A1CC921C800C68122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D111594B1CC921C800C68122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D11159641CC921C800C68122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D11159651CC921C800C68122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D11159671CC921C800C68122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D11159681CC921C800C68122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D111596A1CC921C800C68122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageDemo.app/Contents/MacOS/CarthageDemo";
+			};
+			name = Debug;
+		};
+		D111596B1CC921C800C68122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageDemo.app/Contents/MacOS/CarthageDemo";
+			};
+			name = Release;
+		};
+		D111596D1CC921C800C68122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageDemo;
+			};
+			name = Debug;
+		};
+		D111596E1CC921C800C68122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarthageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D111593C1CC921C800C68122 /* Build configuration list for PBXProject "CarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11159641CC921C800C68122 /* Debug */,
+				D11159651CC921C800C68122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11159661CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11159671CC921C800C68122 /* Debug */,
+				D11159681CC921C800C68122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D11159691CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D111596A1CC921C800C68122 /* Debug */,
+				D111596B1CC921C800C68122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D111596C1CC921C800C68122 /* Build configuration list for PBXNativeTarget "CarthageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D111596D1CC921C800C68122 /* Debug */,
+				D111596E1CC921C800C68122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D11159391CC921C800C68122 /* Project object */;
+}
