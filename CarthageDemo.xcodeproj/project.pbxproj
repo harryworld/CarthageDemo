@@ -13,6 +13,9 @@
 		D111594C1CC921C800C68122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D111594A1CC921C800C68122 /* Main.storyboard */; };
 		D11159571CC921C800C68122 /* CarthageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159561CC921C800C68122 /* CarthageDemoTests.swift */; };
 		D11159621CC921C800C68122 /* CarthageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11159611CC921C800C68122 /* CarthageDemoUITests.swift */; };
+		D111598B1CC92B7900C68122 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D111598A1CC92B7900C68122 /* SwiftDate.framework */; };
+		D111598C1CC92B7900C68122 /* SwiftDate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D111598A1CC92B7900C68122 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D11159901CC92BAA00C68122 /* SwiftDate.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = D111598F1CC92BAA00C68122 /* SwiftDate.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D111598D1CC92B7900C68122 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D111598C1CC92B7900C68122 /* SwiftDate.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D111598E1CC92B9B00C68122 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				D11159901CC92BAA00C68122 /* SwiftDate.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D11159411CC921C800C68122 /* CarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11159441CC921C800C68122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +72,8 @@
 		D111595D1CC921C800C68122 /* CarthageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11159611CC921C800C68122 /* CarthageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoUITests.swift; sourceTree = "<group>"; };
 		D11159631CC921C800C68122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D111598A1CC92B7900C68122 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/Mac/SwiftDate.framework; sourceTree = "<group>"; };
+		D111598F1CC92BAA00C68122 /* SwiftDate.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftDate.framework.dSYM; path = Carthage/Build/Mac/SwiftDate.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D111598B1CC92B7900C68122 /* SwiftDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +105,8 @@
 		D11159381CC921C700C68122 = {
 			isa = PBXGroup;
 			children = (
+				D111598F1CC92BAA00C68122 /* SwiftDate.framework.dSYM */,
+				D111598A1CC92B7900C68122 /* SwiftDate.framework */,
 				D11159431CC921C800C68122 /* CarthageDemo */,
 				D11159551CC921C800C68122 /* CarthageDemoTests */,
 				D11159601CC921C800C68122 /* CarthageDemoUITests */,
@@ -132,6 +164,8 @@
 				D111593D1CC921C800C68122 /* Sources */,
 				D111593E1CC921C800C68122 /* Frameworks */,
 				D111593F1CC921C800C68122 /* Resources */,
+				D111598D1CC92B7900C68122 /* Embed Frameworks */,
+				D111598E1CC92B9B00C68122 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -387,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = CarthageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemo;
@@ -399,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = CarthageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.CarthageDemo;

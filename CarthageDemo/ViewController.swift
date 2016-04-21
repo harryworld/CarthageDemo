@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SwiftDate
 
 class ViewController: NSViewController {
 
@@ -14,6 +15,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print(NSDate().day)
     }
 
     override var representedObject: AnyObject? {
